@@ -1,11 +1,11 @@
 # 4Key
  A web rhythm game made with Cocos Creator 3.4 & Firebase
 
-![preview](https://user-images.githubusercontent.com/82582936/155836839-bac4175e-f56a-48d0-ae34-5fec52d34815.png)
+![Preview](https://user-images.githubusercontent.com/82582936/155836839-bac4175e-f56a-48d0-ae34-5fec52d34815.png)
 
 Due to Cocos Creator 3.4.1 doesn't support firebase, I use `eval("try{MyFirebaseFunc()}catch(){}")` in the code and add the browser-end code below to `index.html` after building:
 
-```
+```html
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

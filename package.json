@@ -6,7 +6,5 @@
   "creator": {
     "version": "3.4.1"
   },
-  "dependencies": {
-    "firebase": "7.20.0"
-  }
+  "dependencies": {}
 }
