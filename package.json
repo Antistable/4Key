@@ -1,0 +1,12 @@
+{
+  "name": "4K",
+  "type": "3d",
+  "uuid": "7558cda7-1e31-4e5a-ae52-381863546895",
+  "version": "3.4.1",
+  "creator": {
+    "version": "3.4.1"
+  },
+  "dependencies": {
+    "firebase": "7.20.0"
+  }
+}
