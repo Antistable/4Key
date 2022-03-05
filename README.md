@@ -10,8 +10,7 @@ Due to Cocos Creator 3.4.1 doesn't support firebase, I use `eval("try{MyFirebase
     <link rel="icon" href="favicon.8de18.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <style>
         body {
             background-color: black;
@@ -20,8 +19,7 @@ Due to Cocos Creator 3.4.1 doesn't support firebase, I use `eval("try{MyFirebase
         #list {
             width: 300px;
             height: 400px;
-            background-color: aliceblue;
-            overflow-y: scroll;
+            background-color: rgba(240, 248, 255, 0.9);
             position: absolute;
             left: 0%;
             right: 0%;
@@ -29,6 +27,11 @@ Due to Cocos Creator 3.4.1 doesn't support firebase, I use `eval("try{MyFirebase
             bottom: 0%;
             margin: auto;
             border-radius: 10px;
+        }
+
+        #container {
+            overflow-y: scroll;
+            height: 360px;
         }
 
         .rank {
@@ -61,7 +64,7 @@ Due to Cocos Creator 3.4.1 doesn't support firebase, I use `eval("try{MyFirebase
 
         .rank a {
             position: absolute;
-            left: 100px;
+            left: 70px;
             top: 10px;
             font-size: 30px;
             font-family: 'Quicksand', sans-serif;
