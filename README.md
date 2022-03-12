@@ -7,7 +7,6 @@ Due to Cocos Creator 3.4.1 doesn't support firebase, I use `eval("try{MyFirebase
 
 ```html
 <head>
-    <link rel="icon" href="favicon.8de18.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
